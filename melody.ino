@@ -109,8 +109,8 @@ void print_nyan(){
     if(_nyan_frame>9)_nyan_frame=0;
    
     /* Inquiring mind(less) users want to know. */
-    Serial.println("You've been NYANing for "); 
-    Serial.println(_nyan_taco);  
+    Serial.print("You've been NYANing for "); 
+    Serial.print(_nyan_taco);  
     Serial.println(" frames and notes\n");
    
     /* Switch that piture, change the print up */
